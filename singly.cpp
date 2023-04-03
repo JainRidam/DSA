@@ -6,7 +6,7 @@ struct node
     int data;
     struct node *next;
 };
-int i, a, b, c, d, e, f, m, j, item = 0, r, q;
+int i, a, b, c, d, e, f, m, j, item = 0, r, q,s;
 struct node *head, *last, *ptemp = NULL;
 void create(void);
 void show(void);
